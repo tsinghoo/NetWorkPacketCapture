@@ -2,8 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
+    buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.minhui.networkcapture"
+        buildToolsVersion "29.0.2"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
